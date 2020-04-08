@@ -810,7 +810,7 @@ var jiathis_config={
       <script type="text/javascript">
       function renderGitment(){
         var gitment = new Gitmint({
-            id: page.title, 
+            id: decodeURI(window.location.pathname), 
             owner: 'lyh666888',
             repo: 'lyh666888.github.io',
             
