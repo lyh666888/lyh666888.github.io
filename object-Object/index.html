@@ -624,7 +624,7 @@
           repo: 'blogmon',
           owner: 'lyh666888',
           admin: ['lyh666888'],
-          id: location.pathname,
+          id: decodeURL(location.pathname),
           perPage: 15,
           pagerDirection: 'last',
           createIssueManually: true,
